@@ -1,14 +1,8 @@
-import tkinter as ttk
+import tkinter as tk
 from tkinter import *
 
-class App(ttk.Frame):
-    def __init__(self, master=None):
-        super().__init__(master)
-        self.pack()
+root = tk.Tk()
+root.title("Tk")
+root.geometry("1000x400")
 
-myApp = App()
-
-myApp.master.geometry("1000x400")
-
-myApp.mainloop()
-
+root.mainloop()
